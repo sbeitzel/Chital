@@ -54,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CE7009F2D4B2E000008FB8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85156A542CA6C0210061ED78 /* ChatModels.swift */,
+				7CE7009A2D4B10B10008FB8A /* Migrations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		85156A312CA6BFD20061ED78 = {
 			isa = PBXGroup;
 			children = (
@@ -76,11 +85,10 @@
 				7CE7009E2D4B2A1D0008FB8A /* Info.plist */,
 				7CE7009C2D4B294F0008FB8A /* UTType+Chital.swift */,
 				85156A3D2CA6BFD20061ED78 /* ChitalApp.swift */,
-				7CE7009A2D4B10B10008FB8A /* Migrations.swift */,
+				7CE7009F2D4B2E000008FB8A /* Model */,
 				85156A502CA6C0210061ED78 /* AppConstants.swift */,
 				85156A4F2CA6C0210061ED78 /* ChatBubbleView.swift */,
 				85156A522CA6C0210061ED78 /* ChatInputView.swift */,
-				85156A542CA6C0210061ED78 /* ChatModels.swift */,
 				85156A552CA6C0210061ED78 /* ChatThreadView.swift */,
 				85156A4E2CA6C0210061ED78 /* ContentView.swift */,
 				85156A512CA6C0210061ED78 /* OllamaService.swift */,
@@ -332,6 +340,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Chital;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -364,6 +373,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Chital;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

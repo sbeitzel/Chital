@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7CE7009B2D4B10B10008FB8A /* Migrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7009A2D4B10B10008FB8A /* Migrations.swift */; };
+		7CE7009D2D4B295D0008FB8A /* UTType+Chital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7009C2D4B294F0008FB8A /* UTType+Chital.swift */; };
 		85156A3E2CA6BFD20061ED78 /* ChitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85156A3D2CA6BFD20061ED78 /* ChitalApp.swift */; };
 		85156A442CA6BFD30061ED78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85156A432CA6BFD30061ED78 /* Assets.xcassets */; };
 		85156A472CA6BFD30061ED78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85156A462CA6BFD30061ED78 /* Preview Assets.xcassets */; };
@@ -24,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		7CE7009A2D4B10B10008FB8A /* Migrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migrations.swift; sourceTree = "<group>"; };
+		7CE7009C2D4B294F0008FB8A /* UTType+Chital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UTType+Chital.swift"; sourceTree = "<group>"; };
+		7CE7009E2D4B2A1D0008FB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		85156A3A2CA6BFD20061ED78 /* Chital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85156A3D2CA6BFD20061ED78 /* ChitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitalApp.swift; sourceTree = "<group>"; };
 		85156A432CA6BFD30061ED78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 		85156A3C2CA6BFD20061ED78 /* Chital */ = {
 			isa = PBXGroup;
 			children = (
+				7CE7009E2D4B2A1D0008FB8A /* Info.plist */,
+				7CE7009C2D4B294F0008FB8A /* UTType+Chital.swift */,
 				85156A3D2CA6BFD20061ED78 /* ChitalApp.swift */,
 				7CE7009A2D4B10B10008FB8A /* Migrations.swift */,
 				85156A502CA6C0210061ED78 /* AppConstants.swift */,
@@ -179,6 +184,7 @@
 				85156A562CA6C0210061ED78 /* ContentView.swift in Sources */,
 				85156A3E2CA6BFD20061ED78 /* ChitalApp.swift in Sources */,
 				85156A582CA6C0210061ED78 /* AppConstants.swift in Sources */,
+				7CE7009D2D4B295D0008FB8A /* UTType+Chital.swift in Sources */,
 				7CE7009B2D4B10B10008FB8A /* Migrations.swift in Sources */,
 				85156A5C2CA6C0210061ED78 /* ChatModels.swift in Sources */,
 			);
@@ -322,6 +328,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chital/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Chital;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -353,6 +360,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chital/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Chital;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
